@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>QR Chat</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    #chat { height: 300px; border: 1px solid #ccc; overflow-y: auto; padding: 15px; }
+    .message {
+      max-width: 70%;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 10px;
+      clear: both;
+    }
+    .message.received {
+      background-color: #e9ecef;
+      float: left;
+    }
+    .message.sent {
+      background-color: #007bff;
+      color: white;
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <h2>Chat được thiết kế bởi HỒ PHÚC HIẾU</h2>
+  <div id="qr"></div>
+  <div id="login">
+    <input type="password" id="pass" placeholder="Nhập mật khẩu" onkeyup="handleEnter(event, login)">
+    <button onclick="login()">Vào chat</button>
+  </div>
+  <div id="app" style="display:none">
+    <div id="chat"></div>
+    <input id="msg" placeholder="Nhắn tin" onkeyup="handleEnter(event, sendMsg)">
+    <button onclick="sendMsg()">Gửi</button>
+  </div>
+  <script src="client.js"></script>
+</body>
+</html>
