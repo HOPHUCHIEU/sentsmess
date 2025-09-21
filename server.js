@@ -29,8 +29,21 @@ app.get("/auth", (req, res) => {
 wss.on("connection", (ws) => {
   clients.add(ws);
   ws.on("message", (msg) => {
+    // Parse message to check if it's text or image
+    let data;
+    try {
+      data = JSON.parse(msg);
+    } catch (e) {
+      // If not JSON, treat as legacy text message
+      data = { type: 'text', content: msg.toString() };
+    }
+
+    // Forward the message to all connected clients
+    const messageToSend = JSON.stringify(data);
     for (const client of clients) {
-      if (client.readyState === 1) client.send(msg.toString());
+      if (client.readyState === 1) {
+        client.send(messageToSend);
+      }
     }
   });
   ws.on("close", () => clients.delete(ws));
