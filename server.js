@@ -130,7 +130,7 @@ const wss = new WebSocketServer({ server });
  */
 const USERS = {
   "user1": { password: "15082002", name: "Hiếu" },
-  "user2": { password: "15082002", name: "Vỹ Vỹ" }
+  "user2": { password: "15082003", name: "Vỹ Vỹ" }
 };s
 
 /**
