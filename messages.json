@@ -1,0 +1,72 @@
+[
+  {
+    "type": "text",
+    "content": "hi",
+    "userId": "user2",
+    "name": "Người dùng 2",
+    "timestamp": "2025-09-23T13:56:50.070Z"
+  },
+  {
+    "type": "text",
+    "content": "hiếu nè",
+    "userId": "user1",
+    "name": "Hiếu",
+    "timestamp": "2025-09-23T13:57:06.203Z"
+  },
+  {
+    "type": "text",
+    "content": "ửa",
+    "userId": "user2",
+    "name": "Người dùng 2",
+    "timestamp": "2025-09-23T13:57:14.563Z"
+  },
+  {
+    "type": "text",
+    "content": "ok rồi",
+    "userId": "user1",
+    "name": "Hiếu",
+    "timestamp": "2025-09-23T13:57:18.867Z"
+  },
+  {
+    "type": "text",
+    "content": "ko bị lỗi nữa",
+    "userId": "user1",
+    "name": "Hiếu",
+    "timestamp": "2025-09-23T13:57:26.707Z"
+  },
+  {
+    "type": "text",
+    "content": "ừ ha",
+    "userId": "user2",
+    "name": "Người dùng 2",
+    "timestamp": "2025-09-23T13:57:29.917Z"
+  },
+  {
+    "type": "text",
+    "content": "đúng ha",
+    "userId": "user2",
+    "name": "Người dùng 2",
+    "timestamp": "2025-09-23T13:57:58.517Z"
+  },
+  {
+    "type": "text",
+    "content": "ừ",
+    "userId": "user1",
+    "name": "Hiếu",
+    "timestamp": "2025-09-23T13:58:01.149Z"
+  },
+  {
+    "type": "text",
+    "content": "chi",
+    "userId": "user2",
+    "name": "Người dùng 2",
+    "timestamp": "2025-09-23T13:58:05.587Z"
+  },
+  {
+    "type": "text",
+    "content": "ok",
+    "userId": "user1",
+    "name": "Hiếu",
+    "timestamp": "2025-09-23T13:58:18.747Z"
+  }
+]
